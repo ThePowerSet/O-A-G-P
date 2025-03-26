@@ -31,7 +31,7 @@ This markdown summarizes the steps taken to make the repository work on a Mac si
 
 - **TensorBoard missing warnings**, despite being installed. These can be ignored after manual installation.
 
-- **Tests failed when running from `/tests` folder**: likely due to the wrong Python version (e.g., 3.12 used instead of the virtual environment).
+- **Tests failed when running from `/tests` folder**: 
 
   **Fix**: Always run `pytest` from the project root (do not go in the test folder) and ensure the correct environment is active.
 
